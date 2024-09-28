@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGLE.std</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="shortcut icon" href="dist/img/--" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav id="header">
+          <!-- Logo Section -->
+          <div class="nav-logo">
+            <p class="nav-name">REGLE.std</p>
+          </div>
+          
+          <!-- Navigation Menu -->
+          <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+              <li class="nav_list">
+                <a href="#home" class="nav-link active-link">Home</a>
+              </li>
+              <li class="nav_list">
+                <a href="shop.html" class="nav-link">Shop</a>
+              </li>
+              <li class="nav_list">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+            </ul>
+          </div>
+    
+          <!-- Search Bar -->
+          <div class="nav__search">
+            <input type="text" placeholder="Search" />
+            <span><i class="uil uil-search-alt"></i></span>
+          </div>
+    
+          <!-- Login Button -->
+          <div class="nav-button">
+            <a href="index.html" class="nav-button">Login <i class="uil uil-user"></i></a>
+          </div>
+    
+          <!-- Hamburger Menu Button -->
+          <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+          </div>
+        </nav>
+      </header>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+          var nav = document.querySelector("nav");
+          nav.classList.toggle("sticky", window.scrollY >0);
+        })
+      </script>
+      <h1>Discover the Best Deals on Trendy Fashion</h1>
+    </section>
+    
+    <!-- Grid image product -->
+    <section class="image-grid">
+      <div class="grid-item grid-item--large">
+          <img src="dist/img/baju6.jpg" alt="Image 1">
+      </div>
+      <div class="grid-item">
+          <img src="dist/img/baju1.jpg" alt="Image 2">
+      </div>
+      <div class="grid-item">
+          <img src="dist/img/baju2.jpg" alt="Image 3">
+      </div>
+      <div class="grid-item grid-item--large">
+          <img src="dist/img/baju3.jpg" alt="Image 4">
+      </div>
+      <div class="grid-item">
+          <img src="dist/img/baju4.jpg" alt="Image 5">
+      </div>
+      <!-- <div class="grid-item">
+          <img src="dist/img/baju5.jpg" alt="Image 6">
+      </div> -->
+  </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section class="newsletter">
+      <h2>Stay Updated</h2>
+      <p>
+        Subscribe to our newsletter for the latest updates and special offers.
+      </p>
+      <form action="#" method="POST">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 REGLE.std. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </footer>
+
+      <script src="dist/js/script.js"></script>
+    </div>
+  </body>
+</html>
